@@ -4,15 +4,14 @@ Atlas 200DK 嵌入式系统实验
 2021年秋季课程大作业
 基于串口的IM通信系统
 
-
 环境配置： Ubuntu 16.04
 依赖包：   socat
 安装方式 apt-get install socat
-apt-get install socat
 
 ## 使用方法
 1.开启两个固定虚拟串口 
 socat -d -d pty,b115200 pty,b115200
+
 /dev/ttyS10 , /dev/ttyS11
 
 `bash socatopenport.sh`
